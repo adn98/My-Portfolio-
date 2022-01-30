@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+.adn h1{
+    color: white;
+    font-family: myfnt2;
+    margin-top: 23px;
+    padding-left: 10px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+@font-face {
+    font-family: myfnt3;
+    src: url(Fonts/rekt/RektBrush.otf);
+}
+a{
+    text-decoration: none;
+    font-family: Playfair Display,serif;
+    color: white;
+    font-family: myfnt3;
+    letter-spacing: 3px;
+    }
+.frm2 {
+    text-align: right;
+    font-weight: 50px;
+    font-family: myfnt2;
+    word-spacing: 20px;
+    padding-top: 21px;
+}    
+.frm2 :hover {
+    color: #FF6700;
+}
+@font-face {
+    font-family: myfnt2;
+    src: url(Fonts/the_philadelphia_story/The-Philadelphia-Story.ttf);
+}
+@font-face {
+    font-family: myfont;
+    src: url(Fonts/After-Shok/After_Shok.ttf);
+    font-weight: bolder;
+}
+.frm{
+    color: black;
+    font-family: myfont;
+    background-color: #ff6700;
+    font-size: 120px;
+    font-style: italic;
+}
+.frm p{
+    margin-bottom: 0px;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-left: 85px;
+}
+.frm :hover {
+    background-color: black;
+    color: #ff6700;
+    box-shadow: 0px 0px 10px 0px, 0px 0px 22px 6px #ff6703;
+    transition: 0.3s;
+}
+.hr {
+    color: white;
+}
+.dot :hover{
+    color: #FF6700;
+}
+.spn{
+    font-family: 'myfnt3';
+    color: #000;
+    font-weight: bold;
+    font-size: 111px;
+    animation: blinkingText 2.5s infinite;
+}
+@keyframes blinkingText{
+		0%		{ color: #000;}
+		25%		{ color: #FF6700;}
+		50%		{ color: #000;}
+		75%		{ color: #FF6700;}
+		100%	{ color: #000;}
+}
+@font-face {
+    font-family: myfnt4;
+    src: url(Fonts/misha_salma/Misha-Salma.ttf);
+}
+@font-face {
+    font-family: myfnt5;
+    src: url(Fonts/break_on_through/Break.ttf);
+}
+.wlcm{
+    color: white;
+    font-size: 111px;
+    padding-left: 50px;
+    font-family: myfnt5;
+}
+#wlcm1 {
+    padding-left: 142px;
+}
+#wlcm2 {
+    padding-left: 161px;
+    margin-top: -23px;
+    font-size: 124px;
+}
+.logo{
+    font-size: 27px;
+    margin-top: 190px;
+    word-spacing: 10px;
+}
+.logo :hover{
+    color: #FF6700;
+}
+.sec2 {
+    margin-top: 35px;
+}
+.marq {
+    color: white;
+    padding-left: 116px;
+    padding-top: 11px;
+}
+ul li :before {
+    color: #FF6700;
+}
